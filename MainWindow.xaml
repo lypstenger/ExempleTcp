@@ -1,0 +1,20 @@
+﻿<Window x:Class="ExTcp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExTcp"
+        mc:Ignorable="d" Closing="Window_Closing"
+        Title="MainWindow" Height="816.053" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Lance Listener" HorizontalAlignment="Left" Height="33" Margin="30,11,0,0" VerticalAlignment="Top" Width="180" Click="button_Click"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Height="32" Margin="267,11,0,0" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="30,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Button x:Name="button1" Content="Envoi" HorizontalAlignment="Left" Height="31" Margin="30,115,0,0" VerticalAlignment="Top" Width="180" Click="button1_Click"/>
+        <ProgressBar x:Name="pb1" HorizontalAlignment="Left" Height="19" Margin="387,269,0,0" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Button x:Name="button3" Content="Nouveau client" HorizontalAlignment="Left" Height="25" Margin="343,33,0,0" VerticalAlignment="Top" Width="136" Click="button3_Click"/>
+        <ListBox x:Name="label1"  HorizontalAlignment="Left" Margin="215,104,0,22" Width="274" />
+        <Button x:Name="button4" Content="CLS" HorizontalAlignment="Left" Height="22" Margin="309,77,0,0" VerticalAlignment="Top" Width="180" Click="button4_Click" RenderTransformOrigin="0.497,0.59"/>
+
+    </Grid>
+</Window>

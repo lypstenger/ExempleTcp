@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VideohubConfig majorVersion="1" minorVersion="0" model="Blackmagic Smart Videohub">
+    <Buttons>
+        <Button type="Source" videoType="Input" videoIndex="0" icon="Monitor"/>
+        <Button type="Source" videoType="Input" videoIndex="1" icon="Master Control"/>
+        <Button type="Source" videoType="Input" videoIndex="2" icon="Green Screen"/>
+        <Button type="Source" videoType="Input" videoIndex="3" icon="Green Room"/>
+        <Button type="Source" videoType="Input" videoIndex="4" icon="Godzilla"/>
+        <Button type="Source" videoType="Input" videoIndex="5" icon="Fiber Optic"/>
+        <Button type="Source" videoType="Input" videoIndex="6" icon="Edit Suite"/>
+        <Button type="Source" videoType="Input" videoIndex="7" icon="Dressing Room"/>
+        <Button type="Source" videoType="Input" videoIndex="8" icon="Telecine"/>
+        <Button type="Source" videoType="Input" videoIndex="9" icon="Vector Scope"/>
+        <Button type="Source" videoType="Input" videoIndex="10" icon="Applause"/>
+        <Button type="Source" videoType="Input" videoIndex="11" icon="Audio Booth"/>
+        <Button type="Source" videoType="Input" videoIndex="12" icon="Cafe"/>
+        <Button type="Source" videoType="Input" videoIndex="13" icon="Camera"/>
+        <Button type="Source" videoType="Input" videoIndex="14" icon="Capture Card"/>
+        <Button type="Source" videoType="Input" videoIndex="15" icon="CCU"/>
+        <Button type="Destination" videoType="Output" videoIndex="0" icon="OB Truck"/>
+        <Button type="Destination" videoType="Output" videoIndex="1" icon="Production Camera"/>
+        <Button type="Destination" videoType="Output" videoIndex="2" icon="Projector"/>
+        <Button type="Destination" videoType="Output" videoIndex="3" icon="Reception"/>
+        <Button type="Destination" videoType="Output" videoIndex="4" icon="Security"/>
+        <Button type="Destination" videoType="Output" videoIndex="5" icon="Standards Converter"/>
+        <Button type="Destination" videoType="Output" videoIndex="6" icon="Switcher"/>
+        <Button type="Destination" videoType="Output" videoIndex="7" icon="Tape Deck"/>
+        <Button type="Destination" videoType="Output" videoIndex="8" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="9" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="10" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="11" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="12" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="13" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="14" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="15" icon="Number"/>
+    </Buttons>
+    <List>
+        <Row portType="Output" portIndex="0" filter="White"/>
+        <Row portType="Output" portIndex="1" filter="White"/>
+        <Row portType="Output" portIndex="2" filter="White"/>
+        <Row portType="Output" portIndex="3" filter="White"/>
+        <Row portType="Output" portIndex="4" filter="White"/>
+        <Row portType="Output" portIndex="5" filter="White"/>
+        <Row portType="Output" portIndex="6" filter="White"/>
+        <Row portType="Output" portIndex="7" filter="White"/>
+        <Row portType="Output" portIndex="8" filter="White"/>
+        <Row portType="Output" portIndex="9" filter="White"/>
+        <Row portType="Output" portIndex="10" filter="White"/>
+        <Row portType="Output" portIndex="11" filter="White"/>
+        <Row portType="Output" portIndex="12" filter="White"/>
+        <Row portType="Output" portIndex="13" filter="White"/>
+        <Row portType="Output" portIndex="14" filter="White"/>
+        <Row portType="Output" portIndex="15" filter="White"/>
+    </List>
+</VideohubConfig>
