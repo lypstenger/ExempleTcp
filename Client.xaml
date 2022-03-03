@@ -11,6 +11,7 @@
         <TextBox x:Name="label" Text="" HorizontalAlignment="Left" Margin="12,56,0,18" Width="172" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
         <Button x:Name="button1" Content="Envoi" HorizontalAlignment="Left" Height="30" Margin="206,13,0,0" VerticalAlignment="Top" Width="150" Click="button1_Click"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="26" Margin="210,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="Adrressconnect" HorizontalAlignment="Left" Height="26" Margin="210,104,0,0" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="95"/>
 
     </Grid>
 </Window>

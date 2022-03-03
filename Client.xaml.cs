@@ -35,7 +35,7 @@ namespace ExTcp
                 // client = new TcpClient("192.168.20.63", 9990);
                 client = new TcpClient();
                 client.ExclusiveAddressUse = false;
-                client.Connect("127.0.0.1", 9990);
+                client.Connect(Adrressconnect.Text, 9990);
                  ecoute = true;
                 Thread Thread_copy = new Thread(() => ecouteTsp(client));
                 Thread_copy.Start();
