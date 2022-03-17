@@ -29,6 +29,7 @@ namespace ExTcp
         {
             InitializeComponent();
         }
+
         TcpListener tt = new TcpListener(IPAddress.Parse("127.0.0.1"), 9990);
         //      TcpListener tt = new TcpListener(IPAddress.Parse("192.168.20.63"), 9990);
 
